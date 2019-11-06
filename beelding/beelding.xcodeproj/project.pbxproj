@@ -15,9 +15,18 @@
 		5144ECBC2356F50A00F4FB92 /* beeldingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5144ECBB2356F50A00F4FB92 /* beeldingTests.swift */; };
 		5144ECC72356F50A00F4FB92 /* beeldingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5144ECC62356F50A00F4FB92 /* beeldingUITests.swift */; };
 		5144ECD52356F64800F4FB92 /* EquipmentListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5144ECD42356F64800F4FB92 /* EquipmentListViewController.xib */; };
+		518EAD3E2371B63C00CBF9C8 /* DataAccessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EAD3D2371B63C00CBF9C8 /* DataAccessService.swift */; };
+		518EAD402371B65400CBF9C8 /* BeeldiBusinessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EAD3F2371B65400CBF9C8 /* BeeldiBusinessService.swift */; };
+		518EAD452371B6CC00CBF9C8 /* EquipmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EAD432371B6CC00CBF9C8 /* EquipmentDetailsViewController.swift */; };
+		518EAD462371B6CC00CBF9C8 /* EquipmentDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 518EAD442371B6CC00CBF9C8 /* EquipmentDetailsViewController.xib */; };
+		518EAD492371B9AF00CBF9C8 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EAD482371B9AF00CBF9C8 /* Equipment.swift */; };
+		518EAD4B2371BA0500CBF9C8 /* Checkpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EAD4A2371BA0500CBF9C8 /* Checkpoint.swift */; };
+		518EAD4F2371BC5700CBF9C8 /* EquipmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 518EAD4D2371BC5700CBF9C8 /* EquipmentTableViewCell.xib */; };
+		518EAD502371BC5700CBF9C8 /* EquipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EAD4E2371BC5700CBF9C8 /* EquipmentTableViewCell.swift */; };
+		518EAD532371BC8F00CBF9C8 /* EquipmentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EAD522371BC8F00CBF9C8 /* EquipmentListViewModel.swift */; };
+		518EAD562371BDA400CBF9C8 /* EquipmentDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518EAD552371BDA400CBF9C8 /* EquipmentDetailsViewModel.swift */; };
 		51B11B622357093A0078E0A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51B11B612357093A0078E0A9 /* GoogleService-Info.plist */; };
 		51B11B64235709820078E0A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B11B63235709820078E0A9 /* Default-568h@2x.png */; };
-		51B11B6723570CE60078E0A9 /* EquipmentDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B11B6623570CE60078E0A9 /* EquipmentDataFetcher.swift */; };
 		DA90392AEDE43153935FF908 /* Pods_beelding_beeldingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5378BD1699DAF382334C26CF /* Pods_beelding_beeldingUITests.framework */; };
 		F4EAF034CB76C0C1E34F237B /* Pods_beelding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC018DEB80C125BAD8117176 /* Pods_beelding.framework */; };
 /* End PBXBuildFile section */
@@ -56,9 +65,18 @@
 		5144ECC62356F50A00F4FB92 /* beeldingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beeldingUITests.swift; sourceTree = "<group>"; };
 		5144ECC82356F50A00F4FB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5144ECD42356F64800F4FB92 /* EquipmentListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EquipmentListViewController.xib; sourceTree = "<group>"; };
+		518EAD3D2371B63C00CBF9C8 /* DataAccessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccessService.swift; sourceTree = "<group>"; };
+		518EAD3F2371B65400CBF9C8 /* BeeldiBusinessService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeldiBusinessService.swift; sourceTree = "<group>"; };
+		518EAD432371B6CC00CBF9C8 /* EquipmentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDetailsViewController.swift; sourceTree = "<group>"; };
+		518EAD442371B6CC00CBF9C8 /* EquipmentDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EquipmentDetailsViewController.xib; sourceTree = "<group>"; };
+		518EAD482371B9AF00CBF9C8 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		518EAD4A2371BA0500CBF9C8 /* Checkpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkpoint.swift; sourceTree = "<group>"; };
+		518EAD4D2371BC5700CBF9C8 /* EquipmentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EquipmentTableViewCell.xib; sourceTree = "<group>"; };
+		518EAD4E2371BC5700CBF9C8 /* EquipmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewCell.swift; sourceTree = "<group>"; };
+		518EAD522371BC8F00CBF9C8 /* EquipmentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentListViewModel.swift; sourceTree = "<group>"; };
+		518EAD552371BDA400CBF9C8 /* EquipmentDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDetailsViewModel.swift; sourceTree = "<group>"; };
 		51B11B612357093A0078E0A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		51B11B63235709820078E0A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		51B11B6623570CE60078E0A9 /* EquipmentDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDataFetcher.swift; sourceTree = "<group>"; };
 		5378BD1699DAF382334C26CF /* Pods_beelding_beeldingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beelding_beeldingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5DDDF03A476906393110B2 /* Pods-beelding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beelding.debug.xcconfig"; path = "Target Support Files/Pods-beelding/Pods-beelding.debug.xcconfig"; sourceTree = "<group>"; };
 		866BB2055F341F92F95A6E17 /* Pods-beelding-beeldingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beelding-beeldingUITests.debug.xcconfig"; path = "Target Support Files/Pods-beelding-beeldingUITests/Pods-beelding-beeldingUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +155,7 @@
 				51B11B612357093A0078E0A9 /* GoogleService-Info.plist */,
 				5144ECB22356F50900F4FB92 /* Info.plist */,
 				5144ECD72356F66500F4FB92 /* Source */,
+				5144ECA42356F50800F4FB92 /* AppDelegate.swift */,
 				5144ECAD2356F50900F4FB92 /* Assets.xcassets */,
 				5144ECAF2356F50900F4FB92 /* LaunchScreen.storyboard */,
 			);
@@ -161,31 +180,87 @@
 			path = beeldingUITests;
 			sourceTree = "<group>";
 		};
-		5144ECD62356F65700F4FB92 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				5144ECA82356F50800F4FB92 /* EquipmentListViewController.swift */,
-				5144ECD42356F64800F4FB92 /* EquipmentListViewController.xib */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		5144ECD72356F66500F4FB92 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				5144ECA42356F50800F4FB92 /* AppDelegate.swift */,
-				5144ECD62356F65700F4FB92 /* Controllers */,
-				51B11B6523570B210078E0A9 /* Fetchers */,
+				518EAD472371B99F00CBF9C8 /* Models */,
+				518EAD3B2371B61800CBF9C8 /* Services */,
+				518EAD382371B5A200CBF9C8 /* Features */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		51B11B6523570B210078E0A9 /* Fetchers */ = {
+		518EAD382371B5A200CBF9C8 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				51B11B6623570CE60078E0A9 /* EquipmentDataFetcher.swift */,
+				518EAD392371B5AB00CBF9C8 /* EquipmentList */,
+				518EAD3A2371B60000CBF9C8 /* EquipmentDetails */,
 			);
-			path = Fetchers;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		518EAD392371B5AB00CBF9C8 /* EquipmentList */ = {
+			isa = PBXGroup;
+			children = (
+				5144ECA82356F50800F4FB92 /* EquipmentListViewController.swift */,
+				5144ECD42356F64800F4FB92 /* EquipmentListViewController.xib */,
+				518EAD512371BC7400CBF9C8 /* ViewModels */,
+				518EAD4C2371BC4200CBF9C8 /* Views */,
+			);
+			path = EquipmentList;
+			sourceTree = "<group>";
+		};
+		518EAD3A2371B60000CBF9C8 /* EquipmentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				518EAD432371B6CC00CBF9C8 /* EquipmentDetailsViewController.swift */,
+				518EAD442371B6CC00CBF9C8 /* EquipmentDetailsViewController.xib */,
+				518EAD542371BD9C00CBF9C8 /* ViewModels */,
+			);
+			path = EquipmentDetails;
+			sourceTree = "<group>";
+		};
+		518EAD3B2371B61800CBF9C8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				518EAD3D2371B63C00CBF9C8 /* DataAccessService.swift */,
+				518EAD3F2371B65400CBF9C8 /* BeeldiBusinessService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		518EAD472371B99F00CBF9C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				518EAD482371B9AF00CBF9C8 /* Equipment.swift */,
+				518EAD4A2371BA0500CBF9C8 /* Checkpoint.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		518EAD4C2371BC4200CBF9C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				518EAD4E2371BC5700CBF9C8 /* EquipmentTableViewCell.swift */,
+				518EAD4D2371BC5700CBF9C8 /* EquipmentTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		518EAD512371BC7400CBF9C8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				518EAD522371BC8F00CBF9C8 /* EquipmentListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		518EAD542371BD9C00CBF9C8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				518EAD552371BDA400CBF9C8 /* EquipmentDetailsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		6BDF6FC7B55A9A3AB971B257 /* Frameworks */ = {
@@ -309,6 +384,8 @@
 			files = (
 				5144ECB12356F50900F4FB92 /* LaunchScreen.storyboard in Resources */,
 				51B11B622357093A0078E0A9 /* GoogleService-Info.plist in Resources */,
+				518EAD462371B6CC00CBF9C8 /* EquipmentDetailsViewController.xib in Resources */,
+				518EAD4F2371BC5700CBF9C8 /* EquipmentTableViewCell.xib in Resources */,
 				5144ECAE2356F50900F4FB92 /* Assets.xcassets in Resources */,
 				51B11B64235709820078E0A9 /* Default-568h@2x.png in Resources */,
 				5144ECD52356F64800F4FB92 /* EquipmentListViewController.xib in Resources */,
@@ -440,8 +517,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5144ECA92356F50800F4FB92 /* EquipmentListViewController.swift in Sources */,
-				51B11B6723570CE60078E0A9 /* EquipmentDataFetcher.swift in Sources */,
+				518EAD562371BDA400CBF9C8 /* EquipmentDetailsViewModel.swift in Sources */,
 				5144ECA52356F50800F4FB92 /* AppDelegate.swift in Sources */,
+				518EAD4B2371BA0500CBF9C8 /* Checkpoint.swift in Sources */,
+				518EAD402371B65400CBF9C8 /* BeeldiBusinessService.swift in Sources */,
+				518EAD502371BC5700CBF9C8 /* EquipmentTableViewCell.swift in Sources */,
+				518EAD452371B6CC00CBF9C8 /* EquipmentDetailsViewController.swift in Sources */,
+				518EAD532371BC8F00CBF9C8 /* EquipmentListViewModel.swift in Sources */,
+				518EAD492371B9AF00CBF9C8 /* Equipment.swift in Sources */,
+				518EAD3E2371B63C00CBF9C8 /* DataAccessService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,7 +740,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = beeldingTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -678,7 +762,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = beeldingTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -699,6 +783,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = beeldingUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -719,6 +804,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = beeldingUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

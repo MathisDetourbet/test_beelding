@@ -22,7 +22,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow()
         
         let rootViewController = EquipmentListViewController(nibName: String(describing: EquipmentListViewController.self), bundle: nil)
-        self.window?.rootViewController = rootViewController
+        self.window?.rootViewController = UINavigationController(rootViewController: rootViewController)
         self.window?.makeKeyAndVisible()
         
         return true
